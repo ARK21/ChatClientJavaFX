@@ -1,0 +1,59 @@
+.button{
+       -fx-background-color: #1d1d1d;
+       -fx-border-width: 2px;
+       -fx-border-color: white;
+       -fx-text-fill: white;
+       -fx-border-radius: 5px;
+       -fx-background-radius: 6px;
+}
+
+.button: pressed {
+       -fx-border-color: red;
+}
+
+.hbox {
+       -fx-background-color: #1d1d1d;
+}
+
+.text-field {
+       -fx-background-color: #1d1d1d;
+       -fx-background-radius: 5px;
+       -fx-text-fill: white;
+       -fx-border-width: 2px;
+       -fx-border-radius: 5px;
+}
+
+.topField {
+       -fx-border-color: white;
+       -fx-border-width: 2px;
+}
+
+.text-field: focused {
+       -fx-border-width: 2px;
+       -fx-border-color: red;
+       -fx-background-color: #333232;
+}
+
+.downField:focused{
+      -fx-border-width: 1px;
+      -fx-background-color: #1d1d1d;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-area {
+    -fx-text-fill: white;
+
+}
+
+.text-area .content{
+    -fx-background-color: #1d1d1d;
+    -fx-border-radius: 5px;
+}
+
+.text-area:focused {
+    -fx-border-color: red;
+}
+
